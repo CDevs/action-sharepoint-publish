@@ -66,7 +66,7 @@ jobs:
       run: ls . | grep -v "build" | xargs rm -r
 
     - name: Deploy to Sharepoint
-      uses: harsohailB/action-sharepoint-publish@v1.0.3
+      uses: harsohailB/react-app-sp-deployment@v1.0.4
       with:
        site_url: 'https://you.sharepoint.com/sites/mySite'
        library_folder: 'Shared documents/releases'
