@@ -3,7 +3,7 @@
 echo "Creating archive";
 mkdir /out
 cd $GITHUB_WORKSPACE
-zip -r /out/repoarchive.zip ./* -x .git/*
+zip -r /out/repoarchive.zip ./build
 export FILE_PATH='/out/repoarchive.zip'
 
 node /app/index.js
