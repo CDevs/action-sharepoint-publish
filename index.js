@@ -21,8 +21,8 @@ if (process.env.GITHUB_REF) {
 }
 
 var fileOptions = {
-    glob: 'build/**/*.*',
-    base: 'build',
+    glob: '*/**/*.*',
+    base: '/',
     folder: process.env.LIB_FOLDER, 
 };
 
@@ -31,5 +31,6 @@ spsave(coreOptions, creds, fileOptions)
     console.log('Success');
 })
 .catch(function(err){
+    console.log('Failed to Copy file');
     process.exit(1);
 });
