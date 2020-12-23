@@ -26,6 +26,9 @@ var fileOptions = {
     folder: process.env.LIB_FOLDER, 
 };
 
+console.log('Copying with the following options:');
+console.log(fileOptions);
+
 spsave(coreOptions, creds, fileOptions)
 .then(function(){
     console.log('Success');
