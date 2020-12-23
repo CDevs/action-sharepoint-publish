@@ -26,6 +26,9 @@ var fileOptions = {
     folder: process.env.LIB_FOLDER, 
 };
 
+
+console.log(process.env.GITHUB_REPOSITORY);
+
 console.log('Copying with the following options:');
 console.log(fileOptions);
 
