@@ -21,8 +21,8 @@ if (process.env.GITHUB_REF) {
 }
 
 var fileOptions = {
-    glob: '*/**/*.*',
-    base: '/',
+    glob: 'Test/**/*.*',
+    base: 'Test',
     folder: process.env.LIB_FOLDER, 
 };
 
