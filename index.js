@@ -35,5 +35,6 @@ spsave(coreOptions, creds, fileOptions)
 })
 .catch(function(err){
     console.log('Failed to Copy file');
+    console.log(err);
     process.exit(1);
 });
