@@ -27,8 +27,8 @@ var fileOptions = {
     //glob: 'Test/**/*.*',
     //base: 'Test',
     fileName: 'Test/TestCopy.ps1',
-    //fileContent: fs.readFileSync(process.env.FILE_PATH)
-    folder: process.env.LIB_FOLDER, 
+    fileContent: fs.readFileSync(process.env.FILE_PATH),
+    folder: process.env.LIB_FOLDER
 };
 
 
