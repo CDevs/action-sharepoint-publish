@@ -21,8 +21,9 @@ if (process.env.GITHUB_REF) {
 }
 
 var fileOptions = {
-    glob: 'Test/**/*.*',
-    base: 'Test',
+    //glob: 'Test/**/*.*',
+    //base: 'Test',
+    file: 'Test/TestCopy.ps1'
     folder: process.env.LIB_FOLDER, 
 };
 
