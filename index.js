@@ -21,7 +21,7 @@ if (process.env.GITHUB_REF) {
 }
 
 console.log('FILE_PATH Variable:');
-console.log(process.env.LIB_FOLDER);
+console.log(process.env.FILE_PATH);
 
 var fileOptions = {
     //glob: 'Test/**/*.*',
