@@ -27,6 +27,7 @@ var fileOptions = {
 };
 
 
+console.log('Github Repo Variable:');
 console.log(process.env.GITHUB_REPOSITORY);
 
 console.log('Copying with the following options:');
