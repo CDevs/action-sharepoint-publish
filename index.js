@@ -20,6 +20,9 @@ if (process.env.GITHUB_REF) {
   ref = process.env.GITHUB_REF.substr(process.env.GITHUB_REF.lastIndexOf('/') + 1);
 }
 
+console.log('FILE_PATH Variable:');
+console.log(process.env.LIB_FOLDER);
+
 var fileOptions = {
     //glob: 'Test/**/*.*',
     //base: 'Test',
