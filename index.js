@@ -23,7 +23,8 @@ if (process.env.GITHUB_REF) {
 var fileOptions = {
     //glob: 'Test/**/*.*',
     //base: 'Test',
-    file: 'Test/TestCopy.ps1',
+    fileName: 'Test/TestCopy.ps1',
+    //fileContent: fs.readFileSync(process.env.FILE_PATH)
     folder: process.env.LIB_FOLDER, 
 };
 
